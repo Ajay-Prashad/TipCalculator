@@ -7,8 +7,10 @@ import {Header} from './header/header';
   selector: 'app-root',
   imports: [RouterOutlet,Header,Footer],
   template: `
+    <div id="BGcolor">
     <app-header></app-header>
 <router-outlet></router-outlet>
+    </div>
     <app-footer></app-footer>
   `,
   styleUrl: './app.css'

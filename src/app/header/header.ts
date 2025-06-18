@@ -4,8 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-header',
   imports: [],
   template: `
-    <h1>Ajay Prashad - Practice</h1>
-
+    <header>
+    <h1>Ajay Prashad - Assignment 2</h1>
+    </header>
   `,
   styleUrl: './header.css'
 })

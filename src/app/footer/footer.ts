@@ -5,8 +5,9 @@ import {DatePipe} from '@angular/common';
   selector: 'app-footer',
   imports: [DatePipe],
   template: `
-    <h1>Ajay Prashad - {{Date | date: 'longDate'}}</h1>
-
+    <footer>
+    <h1 id="text">Ajay Prashad - {{Date | date: 'longDate'}}</h1>
+    </footer>
   `,
   styleUrl: './footer.css'
 })

@@ -1,0 +1,10 @@
+footer {
+  background-color:darkslategray;
+  position:fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px;
+  border-radius: 10px;
+
+}
